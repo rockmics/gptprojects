@@ -1,6 +1,6 @@
 
-backend:
-  name: git-gateway
+backend: github
+  name: rockmics/gptprojects
   branch: main
 
 media_folder: "assets/img"

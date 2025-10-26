@@ -1,0 +1,60 @@
+{
+  "site": {
+    "owner": "Abdul Adedeji",
+    "role": "Senior UX Designer",
+    "tagline": "Designing seamless digital experiences for modern users.",
+    "email": "hello@example.com",
+    "linkedin": "#",
+    "resume_url": "#",
+    "year": "2025",
+    "accent": "#4338CA"
+  },
+  "about": "Senior UX Designer with deep experience in systematizing complex products. I partner with research and engineering to ship accessible, performant interfaces.",
+  "projects": [
+    {
+      "slug": "my-account-animations",
+      "title": "My Account Animations",
+      "subtitle": "Nights & Lifetime activity trackers",
+      "impact": "Motion design \u00b7 Faster comprehension",
+      "thumb": "assets/img/Trackers.jpg",
+      "images": [
+        "assets/img/Trackers.jpg"
+      ],
+      "case_study": {
+        "problem": "Users struggled to understand progress toward status tiers at a glance.",
+        "approach": "Introduced semantic animations and simplified groupings; validated with remote tests.",
+        "impact": "Faster comprehension; fewer support inquiries."
+      }
+    },
+    {
+      "slug": "promotion-screens",
+      "title": "Promotion Screens",
+      "subtitle": "Unified offers experience",
+      "impact": "+8% engagement \u00b7 Component standardization",
+      "thumb": "assets/img/Promo.jpg",
+      "images": [
+        "assets/img/Promo.jpg"
+      ],
+      "case_study": {
+        "problem": "Fragmented promotion flows across brands reduced participation.",
+        "approach": "Consolidated CTAs, standardized component library, clearer copy hierarchy.",
+        "impact": "+8% engagement; \u221222% tickets in 90 days."
+      }
+    },
+    {
+      "slug": "suite-night-awards",
+      "title": "Suite Night Awards",
+      "subtitle": "Upgrade request flow",
+      "impact": "Clarity & trust \u00b7 Higher completion",
+      "thumb": "assets/img/SNA.jpg",
+      "images": [
+        "assets/img/SNA.jpg"
+      ],
+      "case_study": {
+        "problem": "Upgrade eligibility and timing were unclear.",
+        "approach": "Progressive disclosure with checklist steps and status chips.",
+        "impact": "Fewer failed requests; higher completion rates."
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img"
+public_folder: "assets/img"
+
+collections:
+  - name: "site"
+    label: "Site Settings & Content"
+    editor: { preview: false }
+    files:
+      - file: "data/content.json"
+        label: "Content"
+        name: "content"
+        fields:
+          - label: "Site"
+            name: "site"
+            widget: "object"
+            fields:
+              - {label: "Owner", name: "owner", widget: "string"}
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Tagline", name: "tagline", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "LinkedIn URL", name: "linkedin", widget: "string"}
+              - {label: "Resume URL", name: "resume_url", widget: "string", required: false}
+              - {label: "Year", name: "year", widget: "string", default: "2025"}
+              - {label: "Accent Color", name: "accent", widget: "string", default: "#4338CA"}
+          - {label: "About", name: "about", widget: "text"}
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Slug", name: "slug", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - {label: "Impact", name: "impact", widget: "string"}
+              - {label: "Thumbnail", name: "thumb", widget: "image"}
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                field: {label: "Image", name: "image", widget: "image"}
+              - label: "Case Study"
+                name: "case_study"
+                widget: "object"
+                fields:
+                  - {label: "Problem", name: "problem", widget: "text"}
+                  - {label: "Approach", name: "approach", widget: "text"}
+                  - {label: "Impact", name: "impact", widget: "text"}
